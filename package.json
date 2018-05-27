@@ -42,8 +42,8 @@
     "webpack": "^3.8.1"
   },
   "peerDependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "16.3.1",
+    "react-dom": "16.3.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^6.2.0",
@@ -70,8 +70,8 @@
     "lint-staged": "^7.0.4",
     "prettier": "1.12.1",
     "pretty-quick": "^1.4.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
     "react-scripts": "^1.1.1",
     "rollup": "0.59.1",
     "rollup-plugin-babel": "3.0.4",
