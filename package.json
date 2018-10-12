@@ -67,7 +67,7 @@
     "husky": "^1.0.0",
     "lint-staged": "^7.0.4",
     "prettier": "1.14.1",
-    "pretty-quick": "^1.6.0",
+    "pretty-quick": "^1.8.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "^2.0.3",
