@@ -49,6 +49,7 @@ const SiteHeader = ({
   accountDropdown: accountDropdownFromProps,
   navItems,
   onMenuToggleClick,
+  siteTitle,
 }: Props): React.Node => {
   const notificationsTray =
     notificationsTrayFromProps &&
@@ -65,6 +66,7 @@ const SiteHeader = ({
           {children || (
             <React.Fragment>
               <Site.Logo href={href} alt={alt} src={imageURL} />
+              { siteTitle }
               <div className="d-flex order-lg-2 ml-auto">
                 {navItems}
                 {notificationsTray}
