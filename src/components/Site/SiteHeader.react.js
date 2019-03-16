@@ -66,7 +66,7 @@ const SiteHeader = ({
           {children || (
             <React.Fragment>
               <Site.Logo href={href} alt={alt} src={imageURL} />
-              { siteTitle }
+              <span className="header-brand">{ siteTitle }</span>
               <div className="d-flex order-lg-2 ml-auto">
                 {navItems}
                 {notificationsTray}
